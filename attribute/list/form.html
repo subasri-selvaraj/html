@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+    <style>
+        body{
+            
+            
+            font-size: xx-large;
+            background-image: url(./BAGR.webp);
+         }
+         table{
+            text-align: center;
+            width: 50%;
+            height: 30px;
+            
+            
+         }
+         
+        
+        
+    </style>
+</head>
+<body>
+    <table>
+    <div class="form">
+        <center><h1>REGISTRATION FORM</h1></center>
+        
+            <form action="" id="f1">
+            <tr>
+                <td><label for="name">NAME:</label></td>
+                <td><input type="text" name="name" autofocus></td>
+            </tr>
+
+            <tr>
+                <td><label for="department">DEPARTMENT:</label></td>
+                <td><select name="department">
+                    <option>COMPUTER SCIENCE</option>
+                    <option>COMMERCE</option>
+                    <option>CHEMISTRY</option>
+                </select></td>
+                
+            </tr>
+            <tr>
+                <td><label for="course">COURSE:</label></td>
+                <td style="text-align: left;"><input type="checkbox" name="course"><label for="python">PYTHON</label><br>
+                    <input type="checkbox" name="course"><label for="frontend">FRONTEND</label><br>
+                    <input type="checkbox" name="course"><label for="backend">BACKEND</label><br>
+                    <input type="checkbox" name="course"><label for="fullstack">FULLSTACK</label><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="gender">GENDER:</label></td>
+        
+                <td style="text-align: left;"><input type="radio" name="gender"><label for="gender">MALE</label><br>
+                    <input type="radio" name="gender"><label for="gender">FEMALE</label></td>
+            </tr>
+                
+            <tr>
+                <td><label for="address">ADDRESS:</label></td>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="mobile">MOBILE NO:</label></td>
+                <td><input type="number" name="mobile" novalidation></td><br>
+            </tr> 
+            
+            <tr>
+                <td>
+                <label for="email">EMAIL:</label></td>
+                <td><input type="text" name="email"></td>
+            
+            </tr>
+
+            <tr><td><button type="submit">submit</button></td></tr>
+            
+            
+
+        </div>
+        </table>
+        </form>
+    
+</body>
+</html>
